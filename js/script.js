@@ -13,6 +13,7 @@ function addTodos() {
         myTodoListItem.classList.add('my-todo-list__item');
         myTodoListItem.innerHTML = addTodosField.value;
         myTodo.append(myTodoListItem)
+        addTodosField.value = '';
         console.log(addTodosField);
     })
 }
