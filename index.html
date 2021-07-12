@@ -7,19 +7,23 @@
 </head>
 <body>
 <section class="todo-list">
-    <h1 class="todo-list__title">Мой список дел</h1>
+    <h1 class="todo-list__title">My to-do list</h1>
+<!--    <a href="" data-sortBy="asc">asc</a>-->
+<!--    <a href="" data-sortBy="desc">desc</a>-->
+    <div class="sort-section">
+        <h2 class="sort-by-date">Sort By Date</h2>
+        <a href="" class="sort-by-new sort-btn">by new</a>
+        <a href="" class="sort-by-old sort-btn">by old</a>
+    </div>
     <form action="#" method="post" class="add-todos">
         <input type="text" class="add-todos__field" id="field" value="">
-        <button type="submit" class="add-todos__btn">Добавить задание</button>
+        <button type="submit" class="add-todos__btn">Add task</button>
     </form>
-    <ul class="my-todo-list">
-<!--        <li class="my-todo-list__item">-->
-<!--            <span class="my-todo-list__date"></span>-->
-<!--            <span class="my-todo-list__status"></span>-->
-<!--        </li>-->
-    </ul>
+    <ul class="my-todo-list"></ul>
 </section>
-
-<script src="js/script.js"></script>
+<script src="js/model.js"></script>
+<script src="js/view.js"></script>
+<script src="js/localstorage.js"></script>
+<script src="js/controller.js"></script>
 </body>
 </html>

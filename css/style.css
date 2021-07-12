@@ -20,8 +20,7 @@ body {
 }
 
 .todo-list {
-    max-width: 400px;
-    height: 400px;
+    width: 80%;
     padding: 10px;
 }
 
@@ -64,4 +63,42 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+.my-todo-list__date {
+    color: #2097ff;
+}
+
+.my-todo-list__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-family: 'Do Hyeon', sans-serif;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+}
+
+.my-todo-list__title {
+    width: 60%;
+}
+
+.sort-section {
+    text-align: center;
+}
+
+.sort-by-date {
+    text-align: center;
+}
+
+.sort-btn {
+    display: inline-block;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background: black;
+    padding: 10px;
+    width: 100px;
+    margin-bottom: 20px;
 }
